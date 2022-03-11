@@ -13,7 +13,7 @@ app.use(
   })
 );
 
-const URL = "mongodb://localhost:27017";
+const URL = "mongodb+srv://vasanth:admin123@cluster0.ni9t3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 let users = [];
 
 function authenticate(req,res,next){
